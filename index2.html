@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit1-05-HTML-MDL -->
+<html lang="en-ca">
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="description" content="My first webpage, with MDL">
+	  <meta name="keywords" content="immaculata, ics2o">
+	  <meta name="author" content="Ms Raffin">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Google's MDL -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-lime.min.css" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+	  <title>My second webpage, with MDL</title>
+  </head>
+  <body> 
+<!-- Uses a header that contracts as the page scrolls down. -->
+<head>
+<style>
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
+}
+</style>
+
+<div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--waterfall">
+    <!-- Top row, always visible -->
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Title</span>
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+        <label class="mdl-button mdl-js-button mdl-button--icon"
+               for="waterfall-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample"
+                 id="waterfall-exp">
+        </div>
+      </div>
+    </div>
+    <!-- Bottom row, not visible on scroll -->
+    <div class="mdl-layout__header-row">
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="./index copy.html">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+      <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+  </header>
+  
+  <main class="mdl-layout__content">
+    <div class="page-content"><!-- Your content goes here --></div>
+  </main>
+</div>
+</head>
+<!-- MDL Progress Bar with Indeterminate Progress -->
+<div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+ <!-- List with avatar and controls -->
+<style>
+.demo-list-control {
+  width: 300px;
+}
+
+.demo-list-radio {
+  display: inline;
+}
+</style>
+
+<ul class="demo-list-control mdl-list">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <i class="material-icons  mdl-list__item-avatar">person</i>
+      Bryan Cranston
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-1">
+        <input type="checkbox" id="list-checkbox-1" class="mdl-checkbox__input" checked />
+      </label>
+    </span>
+  </li>
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="sample3">
+    <label class="mdl-textfield__label" type="text"></label>
+  </div>
+</form>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <i class="material-icons  mdl-list__item-avatar">person</i>
+      Aaron Paul
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-1">
+        <input type="radio" id="list-option-1" class="mdl-radio__button" name="options" value="1" checked />
+      </label>
+    </span>
+  </li>
+  <form action="#">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="sample3">
+    <label class="mdl-textfield__label" type="text"></label>
+  </div>
+</form>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <i class="material-icons  mdl-list__item-avatar">person</i>
+      Bob Odenkirk
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-1">
+        <input type="checkbox" id="list-switch-1" class="mdl-switch__input" checked />
+      </label>
+    </span>
+  </li>
+</ul>
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="sample3">
+    <label class="mdl-textfield__label" type="text"></label>
+  </div>
+</form>
+<!-- Accent-colored raised button -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+  Submit Respons 
+</button>
+
+</body>
+</html>
+
